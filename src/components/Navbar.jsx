@@ -16,7 +16,7 @@ const Navbar = () => {
                   <h1 className='text-xl cursor-pointer'>{ navText.contact }</h1>
                   <h1 className='bg-white cursor-pointer py-3 px-6 rounded-full text-black'>{ navText.hire }</h1>
               </div>
-              <div className="menu">
+              <div className="menu md:hidden">
                   <HiMenuAlt4 size={30} />
               </div>
       </div>
