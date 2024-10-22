@@ -17,3 +17,11 @@
 .hero{
     height: calc(100vh - 75px);
 }
+
+
+@font-face {
+    font-family: 'CHARLEY';
+    src: url('./fonts/CHARLEY.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
