@@ -6,7 +6,7 @@ import { HiMenuAlt4 } from "react-icons/hi";
 const Navbar = () => {
   return (
     <>
-          <div className="md:w-[90%] w-[95%] mx-auto mt-5 text-white md:h-[50px] bg-transparent flex items-center justify-between font-['Poppins']">
+          <div className="md:w-[90%] w-[95%] mx-auto mt-3 md:mt-5 text-white md:h-[50px] bg-transparent flex items-center justify-between font-['Poppins']">
               <h1 className='text-xl cursor-pointer'>{navText.home}</h1>
               <div className="mid hidden md:flex gap-8 items-center">
                   <h1 className='text-xl cursor-pointer'>{navText.about}</h1>
