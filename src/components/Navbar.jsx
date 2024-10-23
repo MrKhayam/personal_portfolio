@@ -39,9 +39,11 @@ const Navbar = () => {
           <IoClose onClick={() => setIsNav(false)} color="white" size={30} />
         </div>
         <div className="flex flex-col w-full p-7 mt-32 gap-3">
-          <h1 className="text-white text-5xl font-extrabold">{navText.home}</h1>
           <h1 className="text-white text-5xl font-extrabold">
-            {navText.about}
+            <NavLink to="/">{navText.home}</NavLink>
+          </h1>
+          <h1 className="text-white text-5xl font-extrabold">
+            <NavLink to="/about">{navText.about}</NavLink>
           </h1>
           <h1 className="text-white text-5xl font-extrabold">
             {navText.projects}
