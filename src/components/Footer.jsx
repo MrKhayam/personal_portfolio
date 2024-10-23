@@ -4,8 +4,8 @@ import { GoArrowUpRight } from "react-icons/go";
 const Footer = () => {
   return (
     <>
-      <div className="md:w-[90%] w-[95%] flex items-center fixed bottom-3 md:bottom-6 justify-between h-auto">
-        <div className="left flex flex-col text-white">
+      <div className="md:w-[90%] w-[95%] flex items-center fixed bottom-3 md:bottom-6 justify-end md:justify-between h-auto">
+        <div className="left md:flex flex-col text-white hidden">
           <h1 className="text-sm md:text-lg">FullStack Web Developer.</h1>
           <h1 className="text-sm md:text-lg">Graphic Designer.</h1>
           <h1 className="text-sm md:text-lg">Ui/Ux Designer.</h1>

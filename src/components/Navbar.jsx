@@ -17,7 +17,9 @@ const Navbar = () => {
           <h1 className="text-xl cursor-pointer">
             <NavLink to="/about">{navText.about}</NavLink>
           </h1>
-          <h1 className="text-xl cursor-pointer">{navText.projects}</h1>
+          <h1 className="text-xl cursor-pointer">
+            <NavLink to="/projects">{navText.projects}</NavLink>
+          </h1>
         </div>
         <div className="end md:w-[230px] px-2 bg-transparent h-14 border rounded-full hidden md:flex justify-between items-center">
           <h1 className="text-xl cursor-pointer">{navText.contact}</h1>
@@ -46,10 +48,10 @@ const Navbar = () => {
             <NavLink to="/about">{navText.about}</NavLink>
           </h1>
           <h1 className="text-white text-5xl font-extrabold">
-            {navText.projects}
+            <NavLink to="/projects">{navText.projects}</NavLink>
           </h1>
           <h1 className="text-white text-5xl font-extrabold">
-            {navText.contact}
+            <NavLink to="/contact">{navText.contact}</NavLink>
           </h1>
         </div>
         <Footer />
